@@ -1,0 +1,237 @@
+header .header_top{
+	height: 35px;
+	background-color: #f5f5f5;
+}
+header .t_conter{
+	margin: 0 auto;
+	width: 1190px;
+	height:35px;
+}
+header .header_top .t_conter .left{
+	height: 35px;
+	overflow: hidden;
+	float: left;
+}
+header .header_top .t_conter .left li{
+	height: 35px;
+	width: 73px;
+	text-align: center;
+	line-height: 35px;
+	float: left;
+}
+header .header_top .t_conter .right{
+	height: 35px;
+	overflow: hidden;
+	float: right;
+}
+header .header_top .t_conter .right li{
+	height: 35px;
+	width: 87px;
+	text-align: center;
+	line-height: 35px;
+	float: left;
+}
+header .header_bottom{
+	height: 61px;
+	width: 100%;
+	background-color: #ff4401;
+}
+header .header_bottom .b_conter{
+	height: 61px;
+	width: 1180px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+header .header_bottom .b_conter .wdtb{
+	width: 430px;
+	height: 51px;
+	float: left;
+}
+header .header_bottom .b_conter .wdtb p{
+	font-family:"方正舒体";
+	height: 51px;
+	width: 180px;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 35px;
+	color: #fff;
+	float: left;
+}
+
+header .header_bottom .b_conter .wdtb span{
+	height: 50px;
+	width: 78px;
+	display: inline-block;
+	color: #fff;
+	padding-top: 10px;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 15px;
+	float: left;
+}
+header .header_bottom .b_conter form{
+	height: 51px;
+	width: 322px;
+	float: right;
+}
+header .header_bottom .b_conter form input[type=text]{
+	height: 27px;
+	width: 250px;
+	float: right;
+	box-sizing: border-box;
+	margin-top: 5px;
+}
+header .header_bottom .b_conter form input[type=button]{
+	height: 27px;
+	width: 72px;
+	float: right;
+	margin-top: 5px;
+}
+section{
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+section .s_conter{
+	width: 990px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+section .s_conter .c_left{
+	width: 110px;
+	height: 337px;
+	font-size: 13px;
+	float: left;
+}
+section .s_conter .c_left ul{
+	width: 110px;
+	height: 337px;
+}
+section .s_conter .c_left ul li{
+	width: 107px;
+	height: 28px;
+	line-height: 28px;
+}
+section .s_conter .c_right{
+	width: 850px;
+	border: 2px solid #C4D5E0;
+	height: 802px;
+	float: right;
+}
+section .s_conter .c_right dl{
+	width: 850px;
+	height: 514px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+}
+section .s_conter .c_right dl dt{
+	border-top: 1px solid #C4D5E0;
+	padding-top: 10px;
+	padding-left: 20px;
+	margin-top: -1px;
+	box-sizing: border-box;
+	line-height: 43px;
+	width: 808px;
+	font-weight: bold;
+}
+section .s_conter .c_right dl dd ul{
+	width: 810px;
+	box-sizing: border-box;
+	padding-left: 40px;
+	padding-bottom: 20px;
+}
+section .s_conter .c_right dl dd ul li span{
+	width: 100px;
+	line-height: 20px;
+	display: inline-block;
+}
+section .s_conter .c_right dl dd .cr_top li a{
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	color: blue;
+}
+section .s_conter .c_right dl dd .cr_bottom{
+	width: 810px;
+	box-sizing: border-box;
+	padding-left: 40px;
+
+}
+section .s_conter .c_right dl dd .cr_bottom li{
+	height: 69px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+section .s_conter .c_right dl dd img{
+	margin-left: 60px;
+}
+section .s_conter .c_right dl dd .cr_bottom li .tishi{
+	line-height: 20px;
+	height: 49px;
+	width: 60px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+}
+section .s_conter .c_right dl dd .cr_bottom li .xinxi{
+	line-height: 20px;
+	height: 49px;
+	width: 100px;
+	color: black;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+}
+section .s_conter .c_right dl dd .cr_bottom li .bangzhu{
+	line-height: 20px;
+	height: 49px;
+	width: 354px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+}
+section .s_conter .c_right dl dd .cr_bottom li a{
+	text-decoration: none;
+	color: blue;
+	line-height: 20px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+}
+footer{
+	height: 274.73px;
+	background-color: #fff;
+}
+footer .footer_main1{
+	height: 71px;
+	box-sizing: border-box;
+	width: 1190px;
+	margin: 0 auto;
+	border-top: 1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+footer span{
+	line-height: 35px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+footer b{
+	line-height: 35px;
+}
+footer .footer_main2{
+	width: 1190px;
+	margin: 0 auto;
+	height: 106.73px;
+}
+footer .footer_main3{
+	width: 1190px;
+	margin: 0 auto;
+	height: 80px;
+}

@@ -1,0 +1,182 @@
+header{
+	height: 68px;
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 1200px;
+}
+header .h_left{
+	height: 48px;
+	width: 110px;
+	float: left;
+	display: block;
+	background-image: url(../img/denglu_logo.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+header .h_conter{
+	margin: 0 auto;
+	height: 16px;
+	padding: 6px 10px 6px 10px;
+	text-align: center;
+	border:1px solid #ffb4a8;
+	background-color: #fef2f2;
+	color: #6C6C6C;
+	line-height: 16px;
+	width: 902px;
+}
+header .h_right{
+	height: 40px;
+	width: 106px;
+	text-align: center;
+	background-image: url(../img/denglu_jianyi.png);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	float: right;
+	margin-top: 36px;
+	display: block;
+	text-decoration: none;
+	color: #666;
+	background-position: 0px 10px;
+	line-height: 40px;
+}
+section{
+	background-repeat: no-repeat;
+	height: 600px;
+	background-image: url(../img/denglu_bg.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+section .s_conter{
+	height: 600px;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+section .s_conter .sc_shoujitaobao{
+	height: 440px;
+	width: 630px;
+	margin: 80px 0px 0px 80px;
+	float: left; 
+
+}
+section .s_conter .sc_shoujitaobao a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+section .s_conter .sc_biaodanyanzheng{
+	position: absolute;
+	height: 355px;
+	width: 350px;
+	top: 120px;
+	right:60px;
+	background-color: #E9E9F2; 
+}
+section .s_conter .sc_biaodanyanzheng .scb_main{
+	height: 355px;
+	width: 350px;
+	box-sizing: border-box;
+	padding: 25px 25px 23px 25px; 
+}
+section .s_conter .sc_biaodanyanzheng .scb_main h1{
+	margin-top: 9px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	padding-bottom: 8px;
+}
+section .s_conter .sc_biaodanyanzheng .scb_main .user{
+	height: 40px;
+	width: 300px;
+	margin-top: 20px;
+	border:1px solid #ccc;
+}
+section .s_conter .sc_biaodanyanzheng .scb_main .user div{
+	height: 40px;
+	width: 40px;
+	float: left;
+}
+section .s_conter .sc_biaodanyanzheng .scb_main .user div img{
+	width: 100%;
+	height: 100%;
+}
+section .s_conter .sc_biaodanyanzheng .scb_main .user input{
+	height: 40px;
+	width: 260px;
+	padding: 10px;
+	box-sizing:border-box;
+	border:0px;
+	float: left;
+}
+section .s_conter .sc_biaodanyanzheng .scb_main .password{
+	height: 40px;
+	width: 300px;
+	margin-top: 20px;
+	border:1px solid #ccc;
+}
+section .s_conter .sc_biaodanyanzheng .scb_main .password div{
+	height: 40px;
+	width: 40px;
+	float: left;
+}
+section .s_conter .sc_biaodanyanzheng .scb_main .password div img{
+	width: 100%;
+	height: 100%;
+}
+section .s_conter .sc_biaodanyanzheng .scb_main .password input{
+	height: 40px;
+	width: 260px;
+	padding: 10px;
+	box-sizing:border-box;
+	border:0px;
+	float: left;
+}
+section .s_conter .sc_biaodanyanzheng .scb_main button{
+	box-sizing: border-box;
+	border:0px;
+	border-radius: 5px;
+	background-color: #FF4400;
+	color: #fff;
+	height: 40px;
+	width: 300px;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 40px;
+}
+section .s_conter .sc_biaodanyanzheng .scb_main ul{
+	overflow: hidden;
+}
+section .s_conter .sc_biaodanyanzheng .scb_main ul li{
+	margin-top: 20px;
+}
+section .s_conter .sc_biaodanyanzheng .scb_main ul li a{
+	margin-left: 10px;
+	text-decoration: none;
+	color: #666;
+}
+section .s_conter .sc_biaodanyanzheng .scb_main .dengluwenti{
+	float: right;
+	margin-top: 30px;
+}
+section .s_conter .sc_biaodanyanzheng .scb_main .dengluwenti a{
+	text-decoration: none;
+	color: #666;
+	margin-right: 5px;
+}
+footer{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+footer div{
+	height: 36px;
+	padding-top: 10px;
+	border-top: 1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+footer a{
+	padding: 0px 5px 0px 5px;
+	text-decoration: none;
+	color: #666;
+	line-height: 26px;
+}

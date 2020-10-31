@@ -1,0 +1,82 @@
+header{
+	height: 261px;
+	background-image: url(../img/baokongjubao_bg.jpg);
+	background-repeat: repeat-x;
+}
+header .h_top{
+	height: 210px;
+	width: 980px;
+	margin: 0 auto;
+}
+header .h_top img{
+	height: 100%;
+	width: 100%;
+}
+header .h_bottom{
+	height: 51px;
+	background-image: url(../img/baokongjubaoheader_bottombg.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+	line-height: 51px;
+	font-size: 18px;
+	color: #6DA5FF;
+}
+header .h_bottom a{
+	padding: 0px 30px 0px 30px;
+	text-decoration: none;
+	color: #000;
+}
+section{
+	padding-top: 50px;
+	width: 974px;
+	height: 584px;
+	margin: 0 auto;
+	background-color: #EDEDED;
+}
+section .s_main{
+	overflow: hidden;
+}
+section .s_main a{
+	margin-left: 115px;
+	width: 172px;
+	height: 104px;
+	float: left;
+	margin-bottom: 40px;
+}
+section .s_fanhuishouye{
+	margin: 0 auto;
+	width: 170px;
+	height: 68px;
+	display: block;
+}
+footer{
+	width: 974px;
+	margin: 0 auto;
+}
+footer p{
+	font-size: 18px;
+	color: blue;
+	line-height: 35px;
+}
+footer .f_main{
+	height: 46px;
+	background-color: #E6E6E6;
+	padding: 20px;
+	font-size: 13px;
+	line-height: 23px;
+}
+footer .f_main a{
+	text-decoration: none;
+	color: #000;
+	padding: 0px 6px 0px 6px;
+}
+footer .banquan{
+	width: 974px;
+	height: 100px;
+	margin: 0 auto;
+	padding-top: 20px;
+	text-align: center;
+}
+footer .banquan i{
+	line-height: 30px;
+}

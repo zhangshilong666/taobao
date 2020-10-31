@@ -1,0 +1,320 @@
+header .top{
+	height: 35px;
+	background-color: #f5f5f5;
+}
+header .conter_top{
+	margin: 0 auto;
+	width: 1190px;
+	height:35px;
+}
+header .top .conter_top .left{
+	height: 35px;
+	width: 295px;
+	float: left;
+}
+header .top .conter_top .left li{
+	height: 35px;
+	width: 73px;
+	text-align: center;
+	line-height: 35px;
+	float: left;
+}
+header .top .conter_top .right{
+	height: 35px;
+	overflow: hidden;
+	float: right;
+}
+header .top .conter_top .right li{
+	height: 35px;
+	width: 87px;
+	text-align: center;
+	line-height: 35px;
+	float: left;
+}
+header .bottom{
+	width:1190px;
+	height: 70px;
+	margin: 0 auto;
+	border-bottom:1px solid #ccc;
+}
+header .bottom img{
+	margin-top: 20px;
+}
+
+section{
+	margin-bottom: 60px;
+}
+section .conter{
+	width:1190px;;
+	margin: 0 auto;
+}
+section .conter .c_top{
+	height: 50px;
+	width: 1190px;
+}
+section .conter .c_top a{
+	line-height: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+	text-decoration: none;
+}
+section .conter .c_top p{
+	line-height: 50px;
+	float: left;
+}
+section .conter .c_maijia{
+	width:1190px;
+	margin-bottom: 50px;
+}
+section .conter .c_maijia .Maijia{
+	height: 18px;
+	width: 60px;
+	margin-bottom: 20px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -610px;
+}
+section .conter .c_maijia .maijia{
+	height: 18px;
+	width: 60px;
+	margin-bottom: 20px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -625px;
+}
+section .conter .c_maijia .pingtai{
+	height: 18px;
+	width: 60px;
+	margin-bottom: 20px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -700px;
+}
+section .conter .c_maijia .cm_main{
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 9px 9px;
+	border:1px solid #EBEBEB;
+	background-color: #FAFAFA;
+	border-radius: 5px;
+}
+section .conter .c_maijia .cm_main .cmm_f{
+	width: 351px;
+	box-sizing: border-box;
+	float: left;
+	padding: 30px 20px;
+}
+section .conter .c_maijia .cm_main .cmm_f .taobaohuiyuan{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+}
+section .conter .c_maijia .cm_main .cmm_f .woyaoMai{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -33px;
+}
+section .conter .c_maijia .cm_main .cmm_f .taobaotese{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -66px;
+}
+section .conter .c_maijia .cm_main .cmm_f .gouwuzhushou{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -95px;
+}
+section .conter .c_maijia .cm_main .cmm_f .daogougongju{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -127px;
+}
+section .conter .c_maijia .cm_main .cmm_f .woyaomai{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -162px;
+}
+section .conter .c_maijia .cm_main .cmm_f .dianpuguanli{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -194px;
+}
+section .conter .c_maijia .cm_main .cmm_f .kehufuwu{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -225px;
+}
+section .conter .c_maijia .cm_main .cmm_f .baobeiguanli{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -257px;
+}
+section .conter .c_maijia .cm_main .cmm_f .yingxiaozhongxin{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -288px;
+}
+section .conter .c_maijia .cm_main .cmm_f .maijiagongju{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -321px;
+}
+section .conter .c_maijia .cm_main .cmm_f .jiaoyiguanli{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -354px;
+}
+section .conter .c_maijia .cm_main .cmm_f .ruanjiandingdanzhongxin{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -385px;
+}
+section .conter .c_maijia .cm_main .cmm_f .maijiafuwushichang{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -417px;
+}
+section .conter .c_maijia .cm_main .cmm_f .kaifangpingtai{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -719px;
+}
+section .conter .c_maijia .cm_main .cmm_f ul{
+	overflow: hidden;
+	margin-left: 30px;
+}
+section .conter .c_maijia .cm_main .cmm_f ul li{
+	box-sizing: border-box;
+	padding: 10px 0px 0px 10px;
+	float: left;
+}
+section .conter .c_maijia .cm_main .cmm_f ul li a{
+	text-decoration: none;
+	color: #000;
+}
+section .conter .c_guanlibangzhu{
+	width: 1190px;
+	overflow: hidden;
+}
+section .conter .c_guanlibangzhu .cg_dl{
+	float: left;
+	width: 570px;
+}
+section .conter .c_guanlibangzhu .zhanghaoguanli{
+	height: 18px;
+	width: 60px;
+	margin-bottom: 20px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -663px;
+}
+section .conter .c_guanlibangzhu .taobaobangzhu{
+	height: 18px;
+	width: 60px;
+	margin-bottom: 20px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -680px;
+}
+section .conter .c_guanlibangzhu .cg_l{
+	float: left;
+	width: 570px;
+	box-sizing: border-box;
+	padding: 39px 9px 49px 9px;
+	border:1px solid #EBEBEB;
+	background-color: #FAFAFA;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+section .conter .c_guanlibangzhu .cg_l .guanli{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -513px;
+}
+section .conter .c_guanlibangzhu .cg_l ul{
+	overflow: hidden;
+	margin-left: 30px;
+}
+section .conter .c_guanlibangzhu .cg_l ul li{
+	box-sizing: border-box;
+	padding: 10px 0px 0px 10px;
+	float: left;
+}
+section .conter .c_guanlibangzhu .cg_l ul li a{
+	text-decoration: none;
+	color: #000;
+}
+section .conter .c_guanlibangzhu .cg_dr{
+	float: left;
+	margin-left: 50px;
+	width: 570px;
+}
+section .conter .c_guanlibangzhu .cg_r{
+	float: left;
+	width: 570px;
+	box-sizing: border-box;
+	padding: 39px 9px 49px 9px;
+	border:1px solid #EBEBEB;
+	background-color: #FAFAFA;
+	border-radius: 5px;
+}
+section .conter .c_guanlibangzhu .cg_r .bangzhu{
+	height: 32px;
+	width: 125px;
+	background-image: url(../img/daohangjinglingtu.png);
+	background-position: 0px -543px;
+}
+section .conter .c_guanlibangzhu .cg_r ul{
+	overflow: hidden;
+	margin-left: 30px;
+}
+section .conter .c_guanlibangzhu .cg_r ul li{
+	box-sizing: border-box;
+	padding: 10px 0px 0px 10px;
+	float: left;
+}
+section .conter .c_guanlibangzhu .cg_r ul li a{
+	text-decoration: none;
+	color: #000;
+}
+footer{
+	height: 274.73px;
+	background-color: #fff;
+}
+footer .footer_main1{
+	height: 71px;
+	box-sizing: border-box;
+	width: 1190px;
+	margin: 0 auto;
+	border-top: 1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+footer span{
+	line-height: 35px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+footer b{
+	line-height: 35px;
+}
+footer .footer_main2{
+	width: 1190px;
+	margin: 0 auto;
+	height: 106.73px;
+}
+footer .footer_main3{
+	width: 1190px;
+	margin: 0 auto;
+	height: 80px;
+}

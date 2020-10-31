@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" href="css/gwc.css">
+	<link rel="stylesheet" href="css/rest.css">
+	<script src='js/jquery.min.js'></script>
+	<script src='js/gwc.js'></script>
+</head>
+<body>
+	<header>
+		<div class="top">
+			<div class="conter_top">
+				<ul class="left">
+					<li>中国大陆</li>
+					<li>啦啦啦</li>
+					<li>消息</li>
+					<li>手机逛淘宝</li>
+				</ul>
+				<ul class="right">
+					<li><a href="shouye.html">淘宝首页</a></li>
+					<li><a href="mytaobao.html">我的淘宝</a></li>
+					<li><a href="gwc.html">购物车</a></li>
+					<li><a href="shoucangjia.html">收藏夹</a></li>
+					<li><a href="shangpinfenlei.html">商品分类</a></li>
+					<li>千牛卖家中心</li>
+					<li><a href="lianxikefu.html">联系客服</a></li>
+					<li><a href="daohang.html">网站导航</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="bottom">
+			<img src="img/gwc.png" alt="">
+			<form action="">
+				<div><p>宝贝</p></div>
+				<button><p>搜索</p></button>
+				<input type="text">
+				
+			</form>
+		</div>
+	</header>
+	<section>
+		<div class="conter">
+			<div class="c_top">
+				<ul class="ct_left">
+					<li>全部商品</li>
+					<li>降价商品</li>
+					<li>库存紧张</li>
+				</ul>
+				<div class="ct_right"><p>已选商品（不含运费）</p><span>0.00</span><a href="">结算</a></div>
+			</div>
+			<div class="c_xinxi">
+				<ul class="cx_left">
+					<li>
+						<form action="">
+							<input type="checkbox" id="quanxuan">全选
+						</form>
+					</li>
+					<li>商品信息</li>
+				</ul>
+				<ul class="cx_right">
+					<li>单价</li>
+					<li>数量</li>
+					<li>金额</li>
+					<li>操作</li>
+				</ul>
+			</div>
+			<div class="c_bottom" id="qx_main">
+				<div class="cb_main">
+					<div class="cbm_dianpu">
+						<div class="choose"><input type="checkbox">店铺：普利得旗舰店</div>
+					</div>
+					<div class="cbm_shopping">
+						<div class="cbms_biaoji">
+							<input type="checkbox">
+						</div>
+						<div class="cbms_tupian">
+							<img src="img/gwcshoppingtu.jpg" alt="">
+						</div>
+						<div class="cbms_xinxi">
+							<p>凉鞋男2019夏季新款潮流韩版学<br>生休闲外穿男士凉拖鞋两用沙滩鞋男</p>
+						</div>
+						<div class="cbms_chicun">
+							<p>颜色分类：黑白<br>尺码：39</p>
+						</div>
+						<div class="cbms_youhui">
+							<p>￥68.00</p>
+						</div>
+						<div class="cbms_shuliang">
+							<div class="conter"><a href="" class="shuliangjian">-</a><input type="text" value="1"><a href="" class="shuliangjia">+</a></div>
+						</div>
+						<div class="cbms_yingfu">
+							<p class="yingfu">￥68.00</p>
+						</div>
+						<div class="cbms_shanchu">
+							<a href="">移入收藏</a><br>
+							<a href="">删除</a>
+						</div>
+					</div>
+				</div>
+				<div class="cb_main">
+					<div class="cbm_dianpu">
+						<div class="choose"><input type="checkbox">店铺：普利得旗舰店</div>
+					</div>
+					<div class="cbm_shopping">
+						<div class="cbms_biaoji">
+							<input type="checkbox" id="shangpin">
+						</div>
+						<div class="cbms_tupian">
+							<img src="img/gwcshoppingtu.jpg" alt="">
+						</div>
+						<div class="cbms_xinxi">
+							<p>凉鞋男2019夏季新款潮流韩版学<br>生休闲外穿男士凉拖鞋两用沙滩鞋男</p>
+						</div>
+						<div class="cbms_chicun">
+							<p>颜色分类：黑白<br>尺码：39</p>
+						</div>
+						<div class="cbms_youhui">
+							<p>￥68.00</p>
+						</div>
+						<div class="cbms_shuliang">
+							<div class="conter"><a href="" class="shuliangjian">-</a><input type="text" value="1"><a href="" class="shuliangjia">+</a></div>
+						</div>
+						<div class="cbms_yingfu">
+							<p class="yingfu">￥6.00</p>
+						</div>
+						<div class="cbms_shanchu">
+							<a href="">移入收藏</a><br>
+							<a href="">删除</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="c_jiesuan">
+				<ul class="cj_left">
+					<li><input type="checkbox" id="quanxuan1">全选</li>
+					<li>删除</li>
+					<li>清除失效宝贝</li>
+					<li>移入收藏夹</li>
+					<li>分享</li>
+				</ul>
+				<div class="cj_right" id="jiesuan">
+					<p>结算</p>
+				</div>
+				<p class="cj_heji">合计（不包含运费）：<span id="heji">0.00</span></p>
+				<p class="cj_yixuan">已选商品<span> 0 </span>件</p>
+			</div>
+			<div class="c_tuijian">
+				<div class="ct_top">
+					<ul class="ctt_left">
+						<li>掌柜热卖</li>
+						<li>最近收藏</li>
+						<li>最近浏览</li>
+						<li>猜你喜欢</li>
+					</ul>
+					<div class="ctt_right">
+						<a href="">去我的收藏夹>></a>
+					</div>
+				</div>
+				<div class="ct_bottom">
+					<ul class="ctb_shoucang">
+						<li>
+							<img src="img/gwczuijinshoucang.jpg" alt="">
+							<span>¥298</span>
+							<p>夏季男士七分袖短袖T恤五分袖套头卫衣连帽衫韩版宽松半截袖上衣</p>
+						</li>
+						<li>
+							<img src="img/gwczuijinshoucang.jpg" alt="">
+							<span>¥298</span>
+							<p>夏季男士七分袖短袖T恤五分袖套头卫衣连帽衫韩版宽松半截袖上衣</p>
+						</li>
+						<li>
+							<img src="img/gwczuijinshoucang.jpg" alt="">
+							<span>¥298</span>
+							<p>夏季男士七分袖短袖T恤五分袖套头卫衣连帽衫韩版宽松半截袖上衣</p>
+						</li>
+						<li>
+							<img src="img/gwczuijinshoucang.jpg" alt="">
+							<span>¥298</span>
+							<p>夏季男士七分袖短袖T恤五分袖套头卫衣连帽衫韩版宽松半截袖上衣</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="footer_main1">
+			<span>阿里巴巴</span>
+			<b>|</b>
+			<span>淘宝</span>
+			<b>|</b>
+			<span>天猫</span>
+			<b>|</b>
+			<span>聚划算</span>
+			<b>|</b>
+			<span>全球速卖</span>
+			<b>|</b>
+			<span>阿里巴巴国际交易市场</span>
+			<b>|</b>
+			<span>1688</span>
+			<b>|</b>
+			<span>阿里妈妈</span>
+			<b>|</b>
+			<span>飞猪</span>
+			<b>|</b>
+			<span>阿里云计算</span>
+			<b>|</b>
+			<span>Alios</span>
+			<b>|</b>
+			<span>阿里通信</span>
+			<b>|</b>
+			<span>一淘</span>
+			<b>|</b>
+			<span>万网</span>
+			<b>|</b>
+			<span>高德</span>
+			<b>|</b>
+			<span>UC</span>
+			<b>|</b>
+			<span>友盟</span><br>
+			<span>虾米</span>
+			<b>|</b>
+			<span>大麦网</span>
+			<b>|</b>
+			<span>钉钉</span>
+			<b>|</b>
+			<span>支付宝</span>
+			<b>|</b>
+			<span>优酷</span>
+			<b>|</b>
+			<span>土豆</span>
+			<b>|</b>
+			<span>阿里健康</span>
+			<b>|</b>
+			<span>阿里营业</span>
+		</div>
+		<div class="footer_main2">
+			<span>关于淘宝</span>
+			<span>合作伙伴</span>
+			<span>营销中心</span>
+			<span>见证举报</span>
+			<span>联系客服</span>
+			<span>开放平台</span>
+			<span>诚征英才</span>
+			<span>联系我们</span>
+			<span>网站地图</span>
+			<span>隐私权证政策</span>
+			<span>法律声明</span>
+			<span>知识产权</span>
+			<b>|</b>
+			<span>© 2003-现在 Taobao.com 版权所有</span><br>
+			<span>增值电信业务经营许可证：浙B2-20080224</span>
+			<b>|</b>
+			<span>增值电信业务经营许可证（跨地区）： B2-20150210</span>
+			<b>|</b>
+			<span>浙网文（2019）1033-086号</span>
+			<b>|</b>
+			<span>浙江省网络食品销售第三方平台提供者备案：浙网食A33010001</span><br>
+			<span>互联网药品信息服务资格证书（浙）-经营性-2018-0010</span><b>|</b>
+			<span>短消息类服务接入代码使用证书：号【2016】00154-A01</span><b>|</b>
+			<span>信息网络传播视听许可证：1109364号</span><b>|</b>
+			<span>出版物网络交易平台服务经营备案号：新出发浙备字第002号</span><br>
+			<span> 浙公网安备 33010002000078号 </span>
+		</div>
+		<div class="footer_main3">
+			<img src="img/f1.png" alt="">
+		</div>
+	</footer>
+</body>
+</html>
